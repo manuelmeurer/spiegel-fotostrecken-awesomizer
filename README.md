@@ -4,16 +4,18 @@
 
 Machen dich die [Spiegel.de Fotostrecken](http://www.spiegel.de/fotostrecken/) auch verrückt mit ihren winzig kleinen Buttons zum Vor- und Zurückblättern, Page Reloads für jedes Bild und fehlenden Thumbnails? **Diese Chrome-Extension verschafft Abhilfe!**
 
-Nach der Installation werden die Fotostrecken automatisch :sparkles: **AWESOMIZED** :sparkles: mit Hilfe von [Fotorama](http://fotorama.io/), einem supercoolen Plugin für umwerfend hübsche Bildergallerien.
+Nach der Installation werden die Fotostrecken automatisch :sparkles: **AWESOMIZED** :sparkles: mit Hilfe von [Fotorama](http://fotorama.io/), einem supercoolen Plugin für krass hübsche Bildergallerien.
 
-Features:
+## Features
 
-* Navigation durch Klick auf das Bild, Rechts/Links-Tasten der Tastatur oder Swipen auf dem Trackpad
-* Keine Page Reloads
-* Thumbnails
+:bowtie: **Navigation durch Klick auf das Bild, Rechts/Links-Tasten der Tastatur oder Swipen auf dem Trackpad**
 
-Was will man mehr?
+:heart: **Keine Page Reloads**
+
+:thumbsup: **Thumbnails**
+
+Was will man mehr? :heart_eyes:
 
 ## Probleme? Verbesserungsvorschläge?
 
-[Einfach ein Issue erstellen!]((/krautcomputing/spiegel-fotostrecken-awesomizer/issues)
+[Einfach ein Issue erstellen!](/krautcomputing/spiegel-fotostrecken-awesomizer/issues)
