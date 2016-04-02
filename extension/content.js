@@ -3,7 +3,7 @@ var initGallery;
 initGallery = function(images) {
   var $caption, $container, $gallery, i, image, len;
   $container = $('.biga-entries').empty();
-  $gallery = $('<div class="fotorama" data-nav="thumbs" data-navposition="top" data-keyboard="true" data-trackpad="true" data-loop="true" data-auto="false"></div>').appendTo($container);
+  $gallery = $('<div id="gallery" data-nav="thumbs" data-navposition="top" data-keyboard="true" data-trackpad="true" data-loop="true" data-width="100%" data-maxheight="580" data-auto="false"></div>').appendTo($container);
   $caption = $('<div id="gallery-caption"></div>').appendTo($container);
   images.sort(function(a, b) {
     return a[0] - b[0];
