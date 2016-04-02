@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spiegel Fotostrecken Awesomizer",
+  "description": "Verleih den Spiegel.de Fotostrecken die nötige Portion \"Awesome\"!",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.spiegel.de/fotostrecke/*"],
+      "css": ["fotorama-4.6.4/fotorama.css", "styles.css"],
+      "js": ["jquery-2.2.2.min.js", "fotorama-4.6.4/fotorama.js", "content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "fotorama-4.6.4/fotorama.png",
+    "fotorama-4.6.4/fotorama@2x.png"
+  ]
+}
