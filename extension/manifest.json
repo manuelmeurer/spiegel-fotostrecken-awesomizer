@@ -15,5 +15,10 @@
   "web_accessible_resources": [
     "fotorama-4.6.4/fotorama.png",
     "fotorama-4.6.4/fotorama@2x.png"
-  ]
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
 }
