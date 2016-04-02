@@ -1,0 +1,1 @@
+# Spiegel Fotostrecken Awesomizer
