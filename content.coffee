@@ -12,7 +12,7 @@ initGallery = (images) ->
     .fotorama()
 
 $ ->
-  maxPage = parseInt($('.biga-control > span').get(0).innerText.match(/von\s+(\d+)/)[1])
+  maxPage = parseInt($('.biga-control > span').get(0).innerText.match(/\/\s+(\d+)/)[1])
   page = 1
   images = []
   while page <= maxPage
@@ -23,7 +23,7 @@ $ ->
       fetchedPage = parseInt(@url.match(/(?:-(\d{1,2}))?\.html$/)[1] || '1')
       $imageWrapper = $doc.find('.biga-image')
       image = $imageWrapper.find('img').attr('src')
-      text = $imageWrapper.find('+ p').html()
+      text = $imageWrapper.find('p').html()
       images.push [fetchedPage, image, text]
       initGallery images if images.length == maxPage
     page++
