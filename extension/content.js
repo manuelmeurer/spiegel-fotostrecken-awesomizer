@@ -27,12 +27,11 @@ $(function() {
     suffix = page === 1 ? '' : "-" + page;
     url = window.location.href.replace(/(?:-\d{1,2})?\.html$/, suffix + ".html");
     $.get(url, function(data) {
-      var $doc, $imageWrapper, fetchedPage, image, text;
+      var $doc, fetchedPage, image, text;
       $doc = $($.parseHTML(data));
       fetchedPage = parseInt(this.url.match(/(?:-(\d{1,2}))?\.html$/)[1] || '1');
-      $imageWrapper = $doc.find('.biga-image');
-      image = $imageWrapper.find('img').attr('src');
-      text = $imageWrapper.find('p').html();
+      image = $('.biga-image img').attr('src');
+      text = $('.biga-entries > p').html();
       images.push([fetchedPage, image, text]);
       if (images.length === maxPage) {
         return initGallery(images);

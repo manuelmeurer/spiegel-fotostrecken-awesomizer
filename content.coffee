@@ -21,9 +21,8 @@ $ ->
     $.get url, (data) ->
       $doc = $($.parseHTML(data))
       fetchedPage = parseInt(@url.match(/(?:-(\d{1,2}))?\.html$/)[1] || '1')
-      $imageWrapper = $doc.find('.biga-image')
-      image = $imageWrapper.find('img').attr('src')
-      text = $imageWrapper.find('p').html()
+      image = $('.biga-image img').attr('src')
+      text = $('.biga-entries > p').html()
       images.push [fetchedPage, image, text]
       initGallery images if images.length == maxPage
     page++
