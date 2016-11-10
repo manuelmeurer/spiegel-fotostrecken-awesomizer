@@ -19,10 +19,10 @@ $ ->
     suffix = if page == 1 then '' else "-#{page}"
     url = window.location.href.replace(/(?:-\d{1,2})?\.html$/, "#{suffix}.html")
     $.get url, (data) ->
-      $doc = $($.parseHTML(data))
       fetchedPage = parseInt(@url.match(/(?:-(\d{1,2}))?\.html$/)[1] || '1')
-      image = $('.biga-image img').attr('src')
-      text = $('.biga-entries > p').html()
+      $doc = $($.parseHTML(data))
+      image = $doc.find('.biga-image img').attr('src')
+      text = $doc.find('.biga-entries > p').html()
       images.push [fetchedPage, image, text]
       initGallery images if images.length == maxPage
     page++

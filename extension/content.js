@@ -28,10 +28,10 @@ $(function() {
     url = window.location.href.replace(/(?:-\d{1,2})?\.html$/, suffix + ".html");
     $.get(url, function(data) {
       var $doc, fetchedPage, image, text;
-      $doc = $($.parseHTML(data));
       fetchedPage = parseInt(this.url.match(/(?:-(\d{1,2}))?\.html$/)[1] || '1');
-      image = $('.biga-image img').attr('src');
-      text = $('.biga-entries > p').html();
+      $doc = $($.parseHTML(data));
+      image = $doc.find('.biga-image img').attr('src');
+      text = $doc.find('.biga-entries > p').html();
       images.push([fetchedPage, image, text]);
       if (images.length === maxPage) {
         return initGallery(images);
