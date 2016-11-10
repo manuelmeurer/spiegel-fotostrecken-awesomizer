@@ -3,7 +3,7 @@
 
   "name": "Spiegel Fotostrecken Awesomizer",
   "description": "Verleih den Spiegel.de Fotostrecken die nötige Portion \"Awesome\"!",
-  "version": "2.1",
+  "version": "2.2",
 
   "content_scripts": [
     {
