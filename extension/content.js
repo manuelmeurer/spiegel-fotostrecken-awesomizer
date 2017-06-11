@@ -19,6 +19,9 @@ initGallery = function(images) {
 
 $(function() {
   var images, maxPage, page, results, suffix, url;
+  if ($('.currentPage').length) {
+    return;
+  }
   maxPage = parseInt($('.biga-control > span').get(0).innerText.match(/\/\s+(\d+)/)[1]);
   page = 1;
   images = [];

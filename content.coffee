@@ -12,6 +12,10 @@ initGallery = (images) ->
     .fotorama()
 
 $ ->
+  # There seems to be a new style of photo gallery which is harder to handle.
+  # Ignore for now.
+  return if $('.currentPage').length
+
   maxPage = parseInt($('.biga-control > span').get(0).innerText.match(/\/\s+(\d+)/)[1])
   page = 1
   images = []
