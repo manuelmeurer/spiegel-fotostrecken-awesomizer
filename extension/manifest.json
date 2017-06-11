@@ -1,24 +1,36 @@
 {
   "manifest_version": 2,
-
-  "name": "Spiegel Fotostrecken Awesomizer",
-  "description": "Verleih den Spiegel.de Fotostrecken die nötige Portion \"Awesome\"!",
-  "version": "2.2",
-
+  "name":             "Spiegel Fotostrecken Awesomizer",
+  "description":      "Verleih den Spiegel.de Fotostrecken die nötige Portion \"Awesome\"!",
+  "version":          "2.2",
+  "background": {
+    "scripts": [
+      "crx-hotreload/hot-reload.js"
+    ]
+  },
   "content_scripts": [
     {
-      "matches": ["http://www.spiegel.de/fotostrecke/*"],
-      "css": ["fotorama-4.6.4/fotorama.css", "styles.css"],
-      "js": ["jquery-2.2.2.min.js", "fotorama-4.6.4/fotorama.js", "content.js"]
+      "matches": [
+        "http://www.spiegel.de/fotostrecke/*"
+      ],
+      "css": [
+        "fotorama/fotorama.css",
+        "styles.css"
+      ],
+      "js": [
+        "jquery-3.2.1.min.js",
+        "fotorama/fotorama.js",
+        "content.js"
+      ]
     }
   ],
   "web_accessible_resources": [
-    "fotorama-4.6.4/fotorama.png",
-    "fotorama-4.6.4/fotorama@2x.png"
+    "fotorama/fotorama.png",
+    "fotorama/fotorama@2x.png"
   ],
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
+    "16":  "icon16.png",
+    "48":  "icon48.png",
     "128": "icon128.png"
   }
 }
