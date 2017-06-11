@@ -5,11 +5,11 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.10.0)
+    coffee-script-source (1.12.2)
     execjs (2.7.0)
-    ffi (1.9.14)
+    ffi (1.9.18)
     formatador (0.2.5)
-    guard (2.14.0)
+    guard (2.14.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
       lumberjack (~> 1.0)
@@ -30,7 +30,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    lumberjack (1.0.10)
+    lumberjack (1.0.12)
     method_source (0.8.2)
     nenv (0.3.0)
     notiffany (0.1.1)
@@ -40,14 +40,14 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rb-fsevent (0.9.7)
-    rb-inotify (0.9.7)
+    rb-fsevent (0.9.8)
+    rb-inotify (0.9.8)
       ffi (>= 0.5.0)
-    ruby_dep (1.4.0)
-    sass (3.4.22)
+    ruby_dep (1.5.0)
+    sass (3.4.24)
     shellany (0.0.1)
     slop (3.6.0)
-    thor (0.19.1)
+    thor (0.19.4)
 
 PLATFORMS
   ruby
@@ -58,7 +58,7 @@ DEPENDENCIES
   guard-sass (~> 1.6)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.12.5
+   1.15.1

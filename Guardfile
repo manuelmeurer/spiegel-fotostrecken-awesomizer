@@ -6,7 +6,7 @@ coffeescript_options = {
 }
 
 guard 'coffeescript', coffeescript_options do
-  coffeescript_options[:patterns].each { |pattern| watch(pattern) }
+  coffeescript_options[:patterns].each(&method(:watch))
 end
 
 guard 'sass', output: 'extension' do
