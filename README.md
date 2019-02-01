@@ -19,3 +19,7 @@ Was will man mehr? :heart_eyes:
 ## Probleme? Verbesserungsvorschläge?
 
 [Einfach ein Issue erstellen!](/krautcomputing/spiegel-fotostrecken-awesomizer/issues)
+
+## Support
+
+Wenn dir dieses Projekt gefällt, würde ich mich [über einen Kaffee freuen](https://www.buymeacoffee.com/279lcDtbF)! :)
