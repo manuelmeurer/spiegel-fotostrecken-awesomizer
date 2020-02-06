@@ -1,5 +1,7 @@
 # :sparkles: Spiegel Fotostrecken Awesomizer :dancer:
 
+*Update: nach dem Redesign von spiegel.de von Anfang 2020 gibt es die klassichen Fotostrecken nicht mehr, diese Extension ist seitdem also nutzlos und nicht mehr im Chrome Web Store verfügbar!*
+
 Machen dich die [Spiegel.de Fotostrecken](http://www.spiegel.de/fotostrecken/) auch verrückt mit ihren winzig kleinen Buttons zum Vor- und Zurückblättern, Page Reloads für jedes Bild und fehlenden Thumbnails? **Diese Chrome-Extension verschafft Abhilfe!**
 
 [JETZT INSTALLIEREN!](https://chrome.google.com/webstore/detail/spiegel-fotostrecken-awes/hhcnjbchcieblkadkdmgihpeanofnhnb)
